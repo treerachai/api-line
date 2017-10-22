@@ -179,6 +179,33 @@ if($message['type']=='text')
 				
 	}
 	
+	else
+	if ($pesan_datang== '8')
+	{
+	
+        $balas = array(
+							'replyToken' => $replyToken,
+							'messages' => array(
+								array(
+										'type' => 'template',
+										'altText' => 'Developer',
+										'template' => array(
+											'type' => 'buttons',
+											'thumbnailImageUrl' => 'https://i.amz.mshcdn.com/6ugDfUSKdT6hiOUGZUc50aqBPL8=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F477436%2F1c3efd91-7203-4f87-be6a-d3a44df2ea7d.jpg',
+											'title' => 'Aguz Gangga',
+											'text' => 'CEK DI BAWAH',
+											'actions' => array(
+								array(
+										'type' => 'uri',
+										'label' => 'Aguz Gangga',
+										'uri' => 'https://line.me/R/ti/p/~aguzzgangga',
+                             )
+                        )
+                  )
+             )
+        )
+    );
+	}
 
 
 	else{
