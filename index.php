@@ -188,21 +188,50 @@ if($message['type']=='text')
 							'messages' => array(
 								array(
 										'type' => 'template',
-										'altText' => 'Developer',
+										'altText' => 'Deskripsi template',
 										'template' => array(
 											'type' => 'buttons',
-											'thumbnailImageUrl' => 'https://i.amz.mshcdn.com/6ugDfUSKdT6hiOUGZUc50aqBPL8=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F477436%2F1c3efd91-7203-4f87-be6a-d3a44df2ea7d.jpg',
-											'title' => 'Aguz Gangga',
-											'text' => 'CEK DI BAWAH',
+											'thumbnailImageUrl' => 'https://raw.githubusercontent.com/farzain/api-line/master/zFz.png',
+											'title' => 'Youtube Farzain',
+											'text' => 'Klik tombol dibawahini',
 											'actions' => array(
 								array(
 										'type' => 'uri',
-										'label' => 'Aguz Gangga',
-										'uri' => 'https://line.me/R/ti/p/~aguzzgangga',
+										'label' => 'Farzain - zFz',
+										'uri' => 'https://youtube.com/c/zfz48',
+                             )
+								array(
+										'type' => 'uri',
+										'label' => 'Github Farzain',
+										'uri' => 'https://github.com/farzain',
                              )
                         )
                   )
              )
+			 
+								array(
+										'type' => 'template',
+										'altText' => 'Deskripsi template',
+										'template' => array(
+											'type' => 'buttons',
+											'thumbnailImageUrl' => 'https://raw.githubusercontent.com/farzain/api-line/master/zFz.png',
+											'title' => 'Youtube Farzain',
+											'text' => 'Klik tombol dibawahini',
+											'actions' => array(
+								array(
+										'type' => 'uri',
+										'label' => 'Farzain - zFz',
+										'uri' => 'https://youtube.com/c/zfz48',
+                             )
+								array(
+										'type' => 'uri',
+										'label' => 'Github Farzain',
+										'uri' => 'https://github.com/farzain',
+                             )
+                        )
+                  )
+             )
+			 
         )
     );
 	}
