@@ -53,6 +53,31 @@ $pesan_datang = $message['text'];
 //pesan bergambar
 if($message['type']=='text')
 {
+	if($pesan_datang=='help')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Halo '.$profil->displayName.'\nini adalah keyword yang tersedia di bot ini\n1 - 100\nsilahkan pilih salah satu'
+									)
+							)
+						);
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'sticker',					
+										'packageId' => '1'
+										'stickerId' => '1'
+									)
+							)
+						);
+				
+	}
 	if($pesan_datang=='1')
 	{
 		
