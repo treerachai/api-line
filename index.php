@@ -200,9 +200,6 @@ if($message['type']=='text')
 										'label' => 'Farzain - zFz',
 										'uri' => 'https://youtube.com/c/zfz48',
                              )
-										'type' => 'uri',
-										'label' => 'Github Farzain',
-										'uri' => 'https://github.com/farzain',
                         )
                   )
              )					
