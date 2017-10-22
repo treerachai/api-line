@@ -209,7 +209,7 @@ if($message['type']=='text')
 										'type' => 'uri',
 										'label' => 'Farzain - zFz',
 										'uri' => 'https://youtube.com/c/zfz48',
-									);										
+									)										
                         )
                   )
              )					
