@@ -201,14 +201,9 @@ if($message['type']=='text')
 										'uri' => 'https://youtube.com/c/zfz48',
 									),
 								array(
-										'type' => 'uri',
-										'label' => 'Farzain - zFz',
-										'uri' => 'https://youtube.com/c/zfz48',
-									),	
-								array(
-										'type' => 'uri',
-										'label' => 'Farzain - zFz',
-										'uri' => 'https://youtube.com/c/zfz48',
+										'type' => 'message',
+										'label' => 'yes',
+										'text' => 'yes',
 									)										
                         )
                   )
