@@ -207,30 +207,7 @@ if($message['type']=='text')
                              )
                         )
                   )
-             )
-			 
-								array(
-										'type' => 'template',
-										'altText' => 'Deskripsi template',
-										'template' => array(
-											'type' => 'buttons',
-											'thumbnailImageUrl' => 'https://raw.githubusercontent.com/farzain/api-line/master/zFz.png',
-											'title' => 'Youtube Farzain',
-											'text' => 'Klik tombol dibawahini',
-											'actions' => array(
-								array(
-										'type' => 'uri',
-										'label' => 'Farzain - zFz',
-										'uri' => 'https://youtube.com/c/zfz48',
-                             )
-								array(
-										'type' => 'uri',
-										'label' => 'Github Farzain',
-										'uri' => 'https://github.com/farzain',
-                             )
-                        )
-                  )
-             )
+             )					
 			 
         )
     );
